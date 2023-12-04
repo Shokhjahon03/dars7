@@ -1,0 +1,13 @@
+.siginup_logo{
+    max-width: 40px;
+    width: 100%;
+    height: 33px;
+    margin-top: 30px;
+}
+.month{
+    max-width: 312px;
+    width: 100%;
+    height: 70px;
+    padding: 23px 20px;
+    display: flex;
+}

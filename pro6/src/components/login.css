@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "robot";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+.login{
+    max-width: 470px;
+    width: 100%;
+    height: 476px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding-right:10px;
+    padding-left: 10px;
+}
+.login_form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 250px;
+}
+.login_form input{
+    width: 100%;
+    height: 70px;
+    border: 1px solid #00000033;
+    border-radius: 6px;
+    padding: 23px 20px;
+}
+.login_form input::placeholder{
+    /*font-family: Segoe UI;*/
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00000099;
+
+}
+.login_form button{
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 76px;
+    background-color: #1DA1F2;
+    color: white;
+    cursor: pointer;
+}
+.login h2{
+    max-width: 309px;
+    font-family: "robot";
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.forgot_or_create{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.forgot_or_create_links{
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1DA1F2  ;
+}
